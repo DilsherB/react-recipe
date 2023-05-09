@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import Recipe from './components/recipe';
+import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   
@@ -18,7 +19,7 @@ function App() {
   console.log(recipes)
   return (
     <div className="App">
-      <Recipe />
+      <Recipe recipes={recipes} />
     </div>
   );
 }

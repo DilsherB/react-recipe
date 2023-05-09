@@ -1,10 +1,16 @@
 import React from 'react'
 
-const Recipe = () => {
+const Recipe = ({recipes}) => {
   return (
     <div>
-      <div>title: title</div>
-      <div>Image: imgage</div>
+      {recipes.map((recipe)=>{
+        return (
+          <div key={recipe.id} className=''>
+            <h1>{recipe.title}</h1>
+            <img src={recipe.image} alt={recipe.title}/>
+          </div>
+        )
+      })}
     </div>
   )
 }
