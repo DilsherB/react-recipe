@@ -16,7 +16,6 @@ function App() {
     const data = await Response.json();
     setRecipes(data.products);
   }
-  console.log(recipes)
   return (
     <div className="App">
       <Recipe recipes={recipes} />
