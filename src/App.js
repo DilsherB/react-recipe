@@ -16,7 +16,9 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <Recipe recipes={recipes} />
+      {recipes.map((recipe) => (
+        <Recipe key={recipe.id} title={recipe.title} image={recipe.image} />
+      ))}
     </div>
   );
 }
