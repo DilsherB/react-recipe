@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { MdSend } from 'react-icons/md';
+import { MdSearch } from 'react-icons/md';
 import Recipe from "./components/recipe";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -34,13 +34,13 @@ function App() {
         className="d-flex justify-content-center m-3 form-group"
       >
         <input
-          className="from-control"
+          className="from-control col-md-4 col-8"
           type="text"
           value={search}
           onChange={handleSearch}
         />
         <button className="btn btn-primary" type="submit">
-          Search <MdSend />
+          Search <MdSearch />
         </button>
       </form>
       {recipes.map((recipe) => (
