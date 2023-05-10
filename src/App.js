@@ -17,6 +17,7 @@ function App() {
   };
   useEffect(() => {
     getRecipes();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [keyword]);
   const handleSearch = (e) => {
     setSearch(e.target.value);
