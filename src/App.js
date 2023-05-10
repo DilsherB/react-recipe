@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <form
         onSubmit={getSearch}
-        className="searchForm d-flex justify-content-center m-3 form-group"
+        className="d-flex justify-content-center m-3 form-group"
       >
         <input
           className="from-control"

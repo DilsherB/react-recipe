@@ -7,7 +7,7 @@ const Recipe = (props) => {
     <div key={key} className="d-flex justify-content-center text-center">
       <div className="w-50 border border-primary my-3 rounded bg-light">
         <h2 className="text-white bg-primary rounded-top p-2">{title}</h2>
-        <img className="my-2" src={image} alt={title} />
+        <img className="m-2 image" src={image} alt={title} />
       </div>
     </div>
   );
