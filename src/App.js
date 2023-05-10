@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
-  const [keyword, setKeyword] = useState('yogurt');
+  const [keyword, setKeyword] = useState('chocolate');
 
   const getRecipes = async () => {
     const apiKey = '4beac98980dc421e940d8dbca15cb860';
