@@ -1,70 +1,188 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# README
 
-## Available Scripts
+<div align="center">
+  <h3><b>React Recipe with Search option</b></h3>
+  <img src="![Alt text](src/assets/search.JPG)" alt="screen shot" width="100%"  height="auto" />
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
+# 📗 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- PROJECT DESCRIPTION -->
 
-### `npm test`
+# 📖 [Math Magicians] <a name="about-project"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**[Budget Calculator]** 
+> It is an application which pulls data from API and shows it on my page. Further more we can search our favourite recipe.
 
-### `npm run build`
+## 🛠 <a name="built-with">Built With</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<ol>
+  <li>
+    <ol>React
+        <li>React Hooks: useState(), useEffect()</li>
+        <li>React Functions: map()</li>
+    </ol>
+  </li>
+  <li>bootstrap</li>
+  <li>React Material Icons</li>
+  <li>API <a href="https://spoonacular.com/food-api/">API link</a></li>
+</ol>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### <a name="tech-stack"> Tech Stack </a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Here the app is bringing data from an API to show here. You can filter the data by applying search.
 
-### `npm run eject`
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- Features -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### <a name="key-features"> Key Features </a>
 
-## Learn More
+> You can.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **[you can search a recipe of your choice]**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
+## 🛠 <a name="live-demo">Live Demo</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> <a href="https://dilsher-react-search.netlify.app/"> click to see live demo</a>
 
-### Analyzing the Bundle Size
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- GETTING STARTED -->
 
-### Making a Progressive Web App
+## 💻 <a name="getting-started"> Getting Started </a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To get a local copy up and running, follow these steps.
 
-### Advanced Configuration
+### <a name="Setup"> Setup </a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Clone this repository to your desired folder: </br>
+to clone write this command in terminal `git clone https://github.com/DilsherB/react-recipe` </br>
+then `cd "foldername"`</br>
 
-### Deployment
+### <a name="Prerequisites"> Prerequisites </a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+In order to run this project you need:</br>
+`A text editor like VS Code` </br>
+`and A web browser like chrome`
 
-### `npm run build` fails to minify
+### <a name="Install"> Install </a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Install this project with:
+`npm i`
+
+### <a name="Usage"> Usage </a>
+
+To run the project, execute the following command:
+`npm start` and then </br>
+
+### <a name="Run tests"> Run tests </a>
+
+To run tests, run the following command:
+`npm run test` but before that install jes with following command:</br>
+`npm i jest`
+
+### <a name="Deployment"> Deployment </a>
+
+You can deploy this project using the github.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 <a name="Authors">Authors</a>
+
+👤 **Dilsher Balouch**
+
+- GitHub: [@DilsherB](https://github.com/DilsherB)
+- Twitter: [@\_brilliantMindz](https://twitter.com/_brilliantMindz)
+- LinkedIn: [brilliantmindz](https://www.linkedin.com/in/brilliantmindz/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 <a name="Future Features">Future Features</a>
+
+- [ ] **[database to store items]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 <a name="Contributing">Contributing</a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/DilsherB/react-recipe/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ <a name="support">Show your support</a>
+
+If you like this project please give it a star to encourage me.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 <a name="Acknowledgments">Acknowledgments</a>
+
+I would like to thank Microverse.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## 📝 <a name="License">License</a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
