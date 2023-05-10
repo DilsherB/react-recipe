@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { MdSend } from 'react-icons/md';
 import Recipe from "./components/recipe";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -39,11 +40,13 @@ function App() {
           onChange={handleSearch}
         />
         <button className="btn btn-primary" type="submit">
-          Search
+          Search <MdSend />
         </button>
       </form>
       {recipes.map((recipe) => (
-        <Recipe key={recipe.id} title={recipe.title} image={recipe.image} />
+        <div key={recipe.key} className="d-flex justify-content-around text-center">
+          <Recipe title={recipe.title} image={recipe.image} />
+        </div>
       ))}
     </div>
   );
