@@ -45,11 +45,11 @@ function App() {
           Search <MdSearch />
         </button>
       </form>
-      {recipes.map((recipe) => (
-        <div key={recipe.key} className="d-flex justify-content-around text-center">
-          <Recipe title={recipe.title} image={recipe.image} />
-        </div>
-      ))}
+      <div className="d-flex flex-wrap justify-content-center">
+        {recipes.map((recipe) => (
+          <Recipe key={recipe.key} title={recipe.title} image={recipe.image} />
+        ))}
+      </div>
     </div>
   );
 }
