@@ -10,7 +10,9 @@ function App() {
   const getRecipes = async () => {
     const apiKey = "4beac98980dc421e940d8dbca15cb860";
     const Response = await fetch(
-      `https://api.spoonacular.com/food/products/search?query=${keyword}&apiKey=${apiKey}`
+      `https://api.spoonacular.com/food/products/search?query=${
+        !search ? "chocolate" : keyword
+      }&apiKey=${apiKey}`
     );
     const data = await Response.json();
     setRecipes(data.products);
