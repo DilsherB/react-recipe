@@ -175,7 +175,7 @@ If you like this project please give it a star to encourage me.
 
 ## 🙏 <a name="Acknowledgments">Acknowledgments</a>
 
-I would like to thank Microverse.
+I would like to thank Microverse. Microverse is a very good platform who holds our finger and teach us how to walk in the world of development and then how to fly.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
